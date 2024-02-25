@@ -5,7 +5,7 @@ This is a classifier that tells us if a given book has an Indian context, i.e, i
 
 ![Prompt Template (2)](https://github.com/nikhilanand03/IndianBookClassifier/assets/75153414/dc0c994f-e395-4ad9-8826-1c981e12eb80)
 
-My pipeline predicts whether a book Indian without the need for inputting the label. Thus, it is fundamentally a zero-shot model. The Mixtral LLM with 7B parameters is used to label my dataset, and the labelled dataset is then used to train a much smaller model with 80M parameters. Thus, we have a very efficient model with few parameters, that could work with the level of efficiency of a 7B-parameter model. It is finetuned specifically for the task of predicting whether a book has an Indian context or not, ie, it is based on Indian themes and ideas or by an Indian author.
+My pipeline predicts whether a book Indian without the need for inputting the label. It uses a zero-shot method for labelling, and then a smaller model is trained on the labelled dataset. The Mixtral LLM with 7B parameters is used to label my dataset, and the labelled dataset is then used to train a much smaller model with 80M parameters. Thus, we have a very efficient model with few parameters, that could work with the level of efficiency of a 7B-parameter model. It is finetuned specifically for the task of predicting whether a book has an Indian context or not, ie, it is based on Indian themes and ideas or by an Indian author.
 
 ## Dataset
 
