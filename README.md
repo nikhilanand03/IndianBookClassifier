@@ -22,7 +22,7 @@ All of the data was obtained from the Libgen database (https://data.library.bz/d
 
 ### Challenges
 
-Due to lack of GPUs and replicate credits, I could only obtain labels for 640 out of 3 million data points. Still, the performance was quite good on the given dataset, as we'll see in the next section. I balanced the final merged dataset to contain 200 Indian and 200 Non-Indian books.
+Due to lack of GPUs and replicate credits, I could only obtain labels for 640 out of 3 million data points. Still, the performance was quite good on the given dataset, as we'll see in the next section. I class-balanced the final merged dataset to contain 200 Indian and 200 Non-Indian books.
 
 I believe that once more data and features are provided during training, the model will be able to read between the lines and answer more accurately for more challenging examples, where the author is not Indian but perhaps the Indian context is hidden in the summary or title.
 
